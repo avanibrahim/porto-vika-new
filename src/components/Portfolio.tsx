@@ -25,7 +25,7 @@ const items = [
   {
     image: "/img/p3.png",
     title: "Praktek",
-    subtitle: "Penncegahan Diabetes",
+    subtitle: "Pencegahan Diabetes",
     handle: "@vikaadumaa",
     borderColor: "#F59E0B",
     gradient: "linear-gradient(165deg, #F59E0B, #000)",

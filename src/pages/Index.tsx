@@ -7,6 +7,7 @@ import About from '../components/About';
 import Portfolio from '../components/Portfolio';
 import Gallery from '../components/Gallery';
 import Contact from '../components/Contact';
+import Footer from '../components/Footer';
 
 
 const Index = () => {
@@ -21,7 +22,7 @@ const Index = () => {
       <Portfolio />
       <Gallery />
       <Contact />
-      
+      <Footer />
     </div>
     
   );

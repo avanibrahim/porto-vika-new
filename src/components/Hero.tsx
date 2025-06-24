@@ -53,7 +53,7 @@ const Hero = () => {
                 displayOverlayContent={true}
                 overlayContent={
                   <p className="tilted-card-demo-text text-center">
-                    Hii, it's me!
+                    Hii...
                   </p>
                 }
               />

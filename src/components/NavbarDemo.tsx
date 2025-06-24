@@ -19,7 +19,7 @@ const navLinks = [
   { name: "Tentang", href: "#tentang" },
   { name: "Dokumentasi", href: "#portofolio" },
   { name: "Galeri", href: "#galeri" },
-  { name: "Kontak", href: "#kontak" },
+  { name: "Informasi", href: "#kontak" },
 ];
 
 export default function Navbar() {
@@ -50,13 +50,13 @@ export default function Navbar() {
         </a>*/}
 
         {/* Desktop Menu */}
-        <div className="hidden flex-1 items-center justify-center space-x-6 lg:flex">
+        <div className="hidden flex-1 items-center justify-left space-x-6 lg:flex">
           {navLinks.map((link) => (
             <motion.a
               whileHover={{ scale: 1.05 }}
               key={link.name}
               href={link.href}
-              className="text-sm text-white hover:text-pink-300 transition duration-200"
+              className="text-sm text-white hover:text-gray-900 transition duration-200"
             >
               {link.name}
             </motion.a>

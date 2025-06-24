@@ -105,7 +105,7 @@ const Contact = () => {
   <div className="flex justify-center">
     <ProfileCard
       name="Avan Ibrahim"
-      title="Software Engineer"
+      title="UI/UX Designer"
       handle="avan.ibr"
       status="Online"
       contactText="Contact Me"
@@ -127,7 +127,7 @@ const Contact = () => {
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="grid md:grid-cols-2 gap-6">
         <div className="space-y-2">
-          <Label htmlFor="name" className="text-sm font-medium text-gray-400">Nama Lengkap</Label>
+          <Label htmlFor="name" className="text-sm font-medium text-gray-400">Nama</Label>
           <Input
             id="name"
             name="name"
@@ -135,7 +135,7 @@ const Contact = () => {
             onChange={handleInputChange}
             required
             className="bg-black border border-black rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
-            placeholder="Masukkan nama lengkap"
+            placeholder="Nama lengkap"
           />
         </div>
         <div className="space-y-2">
@@ -148,22 +148,9 @@ const Contact = () => {
             onChange={handleInputChange}
             required
             className="bg-black border border-black rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
-            placeholder="contoh@email.com"
+            placeholder="your@mail.com"
           />
         </div>
-      </div>
-
-      <div className="space-y-2">
-        <Label htmlFor="subject" className="text-sm font-medium text-gray-400">Subject</Label>
-        <Input
-          id="subject"
-          name="subject"
-          value={formData.subject}
-          onChange={handleInputChange}
-          required
-          className="bg-black border border-black rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
-          placeholder="Judul pesan"
-        />
       </div>
 
       <div className="space-y-2">
@@ -176,7 +163,7 @@ const Contact = () => {
           required
           rows={5}
           className="bg-black border border-black rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
-          placeholder="Tulis pesan Anda di sini..."
+          placeholder="Pesan Anda"
         />
       </div>
 
