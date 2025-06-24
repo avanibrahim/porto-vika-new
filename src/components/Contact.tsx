@@ -119,8 +119,8 @@ const Contact = () => {
 
 
          {/* Contact Form kanan */}
-         <Card className="relative shadow-lg border border-gray-700 bg-white/10 backdrop-blur-md backdrop-saturate-150 text-gray-300 rounded-lg overflow-hidden">
-  <CardHeader className="border-b border-gray-700 px-6 py-4 bg-white/20 backdrop-blur-sm">
+         <Card className="relative shadow-lg border border-white bg-white/10 backdrop-blur-md backdrop-saturate-150 text-gray-300 rounded-lg overflow-hidden">
+  <CardHeader className="border-b border-black px-6 py-4 bg-black backdrop-blur-sm">
     <CardTitle className="text-2xl font-semibold text-gray-100">Kirim Pesan</CardTitle>
   </CardHeader>
   <CardContent className="px-6 py-6">
@@ -134,7 +134,7 @@ const Contact = () => {
             value={formData.name}
             onChange={handleInputChange}
             required
-            className="bg-gray-800/70 border border-gray-700 rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
+            className="bg-black border border-black rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
             placeholder="Masukkan nama lengkap"
           />
         </div>
@@ -147,7 +147,7 @@ const Contact = () => {
             value={formData.email}
             onChange={handleInputChange}
             required
-            className="bg-gray-800/70 border border-gray-700 rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
+            className="bg-black border border-black rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
             placeholder="contoh@email.com"
           />
         </div>
@@ -161,7 +161,7 @@ const Contact = () => {
           value={formData.subject}
           onChange={handleInputChange}
           required
-          className="bg-gray-800/70 border border-gray-700 rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
+          className="bg-black border border-black rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
           placeholder="Judul pesan"
         />
       </div>
@@ -175,7 +175,7 @@ const Contact = () => {
           onChange={handleInputChange}
           required
           rows={5}
-          className="bg-gray-800/70 border border-gray-700 rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent resize-none transition"
+          className="bg-black border border-black rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
           placeholder="Tulis pesan Anda di sini..."
         />
       </div>
@@ -183,7 +183,7 @@ const Contact = () => {
       <Button
         type="submit"
         disabled={isSubmitting}
-        className="w-full bg-gray-700 hover:bg-gray-600 text-gray-100 py-3 rounded-lg font-semibold shadow-md transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+        className="bg-black border border-black rounded-md px-4 py-3 text-gray-200 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:border-transparent transition"
       >
         {isSubmitting ? 'Mengirim...' : 'Kirim Pesan'}
       </Button>

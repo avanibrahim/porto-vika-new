@@ -11,7 +11,7 @@ const About = () => {
     <div className="text-left">
       <div className="space-y-6">
         <GradientText
-          colors={["#000000", "#ffffff", "#ff69b4", "#ffffff", "#000000"]}
+         colors={["#000000", "#808080", "#A9A9A9", "#D3D3D3", "#FFFFFF"]}
           animationSpeed={3}
           showBorder={false}
           className="text-left text-5xl md:text-6xl font-bold"

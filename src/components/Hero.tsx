@@ -80,7 +80,7 @@ const Hero = () => {
                 sentence="Ilmu Keperawatan"
                 manualMode={true}
                 blurAmount={3}                 // Lebih rendah dari 4
-                borderColor='pink'
+                borderColor='gray'
                 animationDuration={0.5}       // Lebih smooth (1.5s)
                 pauseBetweenAnimations={1}  // Jeda antar fokus lebih natural
               />
