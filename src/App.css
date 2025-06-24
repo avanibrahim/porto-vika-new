@@ -5,16 +5,16 @@
   font-style: normal;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
-}
-
-body {
-  font-family: 'Press Start 2P', cursive;
 }
 
 

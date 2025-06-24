@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 import { IconMenu2, IconX } from "@tabler/icons-react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/utils"; // opsional: bisa diganti classnames biasa
-import TextPressure from '@/components/TextPressure';
+
 
 // Note:
 // Make sure the font you're using supports all the variable properties. 
@@ -44,10 +44,10 @@ export default function Navbar() {
       )}
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 lg:py-4">
-        {/* Logo */}
+        {/* Logo 
         <a href="#" className="flex items-center space-x-2">
           <img src="/img/logo.png" alt="Logo" className="h-10 w-10 rounded-full" />
-        </a>
+        </a>*/}
 
         {/* Desktop Menu */}
         <div className="hidden flex-1 items-center justify-center space-x-6 lg:flex">
@@ -63,10 +63,10 @@ export default function Navbar() {
           ))}
         </div>
 
-        {/* Title / Brand */}
+        {/* Title / Brand
         <div className="hidden lg:block font-semibold text-lg text-white dark:text-white font-mono tracking-wide">
   AIBR.
-</div>
+</div>*/}
 
 
 

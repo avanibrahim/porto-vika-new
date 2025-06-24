@@ -78,15 +78,15 @@ const Hero = () => {
               {/* Subjudul */}
               <TrueFocus
                 sentence="Ilmu Keperawatan"
-                manualMode={false}
-                blurAmount={5}                 // Lebih rendah dari 4
+                manualMode={true}
+                blurAmount={3}                 // Lebih rendah dari 4
                 borderColor='pink'
                 animationDuration={0.5}       // Lebih smooth (1.5s)
                 pauseBetweenAnimations={1}  // Jeda antar fokus lebih natural
               />
 
 
-              {/* Ikon Sosial Media */}
+              {/* Ikon Sosial Media 
               <div className="flex justify-center items-center gap-6 mt-12">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
                   <img src="/icons/fb.png" alt="Facebook" className="w-10 h-10 hover:scale-110 transition" />
@@ -97,7 +97,7 @@ const Hero = () => {
                 <a href="/" target="_blank" rel="noopener noreferrer">
                   <img src="/icons/in.png" alt="WhatsApp" className="w-10 h-10 hover:scale-110 transition" />
                 </a>
-              </div>
+              </div>*/}
 
             </div>
           </div>
